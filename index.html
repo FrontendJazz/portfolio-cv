@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Title</title>
+  <!--==================== BOX-ICONS ====================-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Igor html template</title>
+</head>
+<body>
+
+<header class="header" id="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo">Samartsev</a>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list grid">
+        <li class="nav__item">
+          <a href="#home" class="nav__link">
+            <i class='bx bx-home-smile nav__icon'></i>Home
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">
+            <i class='bx bx-user nav__icon'></i>About
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#skills" class="nav__link">
+            <i class='bx bx-file nav__icon'></i>Skills
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">
+            <i class='bx bx-briefcase-alt-2 nav__icon'></i>Services
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#portfolio" class="nav__link">
+            <i class='bx bx-image nav__icon'></i>Portfolio
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">
+            <i class='bx bx-message-detail nav__icon'></i>Contact me
+          </a>
+        </li>
+      </ul>
+      <i class='bx bx-x nav__close' id="nav-close"></i>
+    </div>
+    <div class="nav__btns">
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-category'></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="home section" id="home">
+    <div class="home__container container grid">
+      <div class="home__contend grid">
+        <div class="home__social">
+          <a href="#" class="home__social-icon">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+          <a href="#" class="home__social-icon">
+            <i class='bx bxl-github'></i>
+          </a>
+          <a href="#" class="home__social-icon">
+            <i class='bx bxl-telegram'></i>
+          </a>
+        </div>
+        <div class="home__img">
+          <svg class="home__blob" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+               viewBox="0 0 200 187">
+            <mask id="mask0" mask-type="alpha">
+              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547          130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775          97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346          165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403          129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+              <image class="home__blob-img" x="20" y="30" xlink:href="./assets/images/photo.png"/>
+            </g>
+          </svg>
+        </div>
+        <div class="home__data">
+          <h1 class="home__title">
+            Привет, я Игорь
+          </h1>
+          <h3 class="home__subtitle">Frontend разработчик</h3>
+          <p class="home__description">Большой опыт работы в веб разработке, написание качественного и современного
+            кода</p>
+          <a href="#" class="button button--flex">
+            Связаться со мной<i class='bx bx-mail-send button__icon'></i>
+          </a>
+        </div>
+      </div>
+      <div class="home__scroll">
+        <a href="#" class="home__scroll-button button--flex">
+          <i class='bx bx-mouse home__scroll-mouse'></i>
+          <span class="home__scroll-name">Scroll down</span>
+          <i class='bx bx-down-arrow-alt home__scroll-arrow'></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="about section" id="about">
+    <h2 class="section__title">Обо мне</h2>
+    <span class="section__subtitle"></span>
+    <div class="about__container container grid">
+      <img src="./assets/images/igor_microsoft.jpg" alt="" class="about__img">
+      <div class="about__data">
+        <p class="about__description">
+          Веб разработчик с обширными знаниями и многолетним опытом, работающий в сфере веб технологий и ux/ui дизайна.
+        </p>
+        <div class="about__info">
+          <div>
+            <span class="about__info-title">08+</span>
+            <span class="about__info-name">Лет<br> опыта</span>
+          </div>
+          <div>
+            <span class="about__info-title">40+</span>
+            <span class="about__info-name">Завершенных<br> проектов</span>
+          </div>
+          <div>
+            <span class="about__info-title">05+</span>
+            <span class="about__info-name">Лучших<br> компаний</span>
+          </div>
+        </div>
+        <div class="about__buttons">
+          <a href="#" class="button button--flex">
+            Скачать CV <i class='bx bxs-download button__icon'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <span class="section__subtitle">My technical level</span>
+    <div class="skills__container container grid">
+      <div>
+        <!-- SKILL 1-->
+        <div class="skills__content skills__open">
+          <div class="skills__header">
+            <i class='bx bx-code-block skills__icon' ></i>
+            <div>
+              <h1 class="skills__title">Frontend разработка</h1>
+              <span class="skills__subtitle">Более 4 лет</span>
+            </div>
+            <i class='bx bxs-chevron-down skills__arrow' ></i>
+          </div>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">HTML</h3>
+                <span class="skills__number">90%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__html"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">CSS</h3>
+                <span class="skills__number">80%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__css"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__number">70%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__js"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">React</h3>
+                <span class="skills__number">80%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__react"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SKILL 2-->
+        <div class="skills__content skills__close">
+          <div class="skills__header">
+            <i class='bx bx-server skills__icon' ></i>
+            <div>
+              <h1 class="skills__title">Backend разработка</h1>
+              <span class="skills__subtitle">Более 2 лет</span>
+            </div>
+            <i class='bx bxs-chevron-down skills__arrow' ></i>
+          </div>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Node js</h3>
+                <span class="skills__number">70%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__node"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Express.js</h3>
+                <span class="skills__number">80%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__express"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Mongo</h3>
+                <span class="skills__number">70%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__mongo"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Firebase</h3>
+                <span class="skills__number">70%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__firebase"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SKILL 3-->
+        <div class="skills__content skills__close">
+          <div class="skills__header">
+            <i class='bx bx-layout skills__icon' ></i>
+            <div>
+              <h1 class="skills__title">Дизайн</h1>
+              <span class="skills__subtitle">Более 2 лет</span>
+            </div>
+            <i class='bx bxs-chevron-down skills__arrow' ></i>
+          </div>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Figma</h3>
+                <span class="skills__number">70%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__figma"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Sketch</h3>
+                <span class="skills__number">70%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__sketch"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Photoshop</h3>
+                <span class="skills__number">80%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__photoshop"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">React</h3>
+                <span class="skills__number">80%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__react"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+
+</footer>
+
+<!--==================== SWIPER JS ====================-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!--==================== MAIN JS ====================-->
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
