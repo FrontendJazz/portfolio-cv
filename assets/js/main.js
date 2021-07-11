@@ -24,11 +24,9 @@ const navLinks = document.querySelectorAll('.nav__link')
 const linkActions = () =>  navMenu.classList.remove('show-menu')
 navLinks.forEach(el => el.addEventListener('click', linkActions))
 
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.portfolio__container', {
   // Optional parameters
-  cssMode: true,
-  mousewheel: true,
-  keyboard: true,
+  grabCursor: true,
   loop: true,
   pagination: {
     el: '.swiper-pagination',
@@ -38,6 +36,23 @@ const swiper = new Swiper('.swiper-container', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  }
+});
+
+const swiperTestimonial = new Swiper('.testimonial__container', {
+  // Optional parameters
+  loop: true,
+  spaceBetween: 48,
+  grabCursor: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2
+    }
   }
 });
 
